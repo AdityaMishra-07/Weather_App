@@ -9,9 +9,11 @@ const Icon = ({ src, alt, className }) => (
     <img
         src={src}
         alt={alt}
-        className={`h-10 w-10 inline-block ${className}`}
+        className={`h-8 w-8 inline-block ${className}`}
     />
 );
+
+
 
 export const WindIcon = () => <Icon src={windIcon} alt="Wind" className='animate-icon svg-hover ' />
 export const HumidityIcon = () => <Icon src={humidityIcon} alt="Humidity" className='powerful-pulse svg-hover' />
