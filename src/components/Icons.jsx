@@ -1,4 +1,3 @@
-import React from 'react';
 import windIcon from '../assets/wind.png';
 import humidityIcon from '../assets/humidity.png';
 import visibilityIcon from '../assets/visibility.png';
