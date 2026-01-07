@@ -50,6 +50,7 @@ const App = () => {
     }
   };
 
+
   // THIS WILL FETCH FULL DATA FROM URL
   const fetchWeatherData = async (url, name = '') => {
     setError('');
